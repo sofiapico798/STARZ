@@ -139,7 +139,6 @@ nav{
     display: flex;
     justify-content: space-between;
     background-color: #226CFF;
-    width: 390px;
     margin-top: 0px;
     svg{
         padding: 25px;
@@ -273,4 +272,5 @@ input[type=radio]{
     overflow-y: auto;
     margin-top: 10px;
 }
+
 
