@@ -1,0 +1,224 @@
+body{
+background-color: black;
+margin: 0%;
+}
+
+/*Alt + Shift + A (para hacer UN comentario) */
+
+main{
+    margin: 11.5%; /* seria como la regla o limite del contenido (para que no este tan en el borde */
+}
+
+h1{
+    color: white;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 55px;
+    font-style: normal;
+}
+
+.Estrelainicio{
+    /*width: 60%;*/
+    width: 140px;
+    height: 139px;
+    margin-top: -70px;
+    margin-left: 150px;
+}
+
+.inicioplaneatuevento{
+   width: 190px;
+   height: 38px;
+   color: white;
+   font-size: 20px;
+   font-family: "Darker Grotesque", sans-serif;
+   font-style: normal;
+   background-color: #E7008F;
+   border: #E7008F;
+   border-radius: 50px;
+   text-align: center;
+   align-items: center;
+   margin-top: 55px;
+}
+
+h2{
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    font-size: 35px;
+    color: #D5EE1A;
+    margin-top: 80px;
+}
+
+.texto{
+    color: white;
+    font-family: "Darker Grotesque", sans-serif;
+    font-size: 25px;
+    font-style: normal;  
+}
+
+.subtitulo{
+     font-family: "Barlow Condensed", sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    font-size: 35px;
+    color: #D5EE1A;
+    text-transform: uppercase;
+}
+
+#nuestrasestrellas{
+    margin-top: -380px;
+}
+
+
+
+
+button{
+    margin-left: 60px;
+}
+
+button:hover{
+    background-color: #ffffff;
+    color: white;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #226CFF;
+    width: 390px;
+    margin-top: 0px;
+    svg{
+        padding: 25px;
+    }
+}
+
+
+/* SLIDER MOVIL */ 
+
+.cubiertacontenedor_slider{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+
+.contenedor_slider{
+    height: 550px;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.tarjeta{
+    position: absolute;
+    width: 95%;
+    height: 45%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: -95px;
+    cursor: pointer;
+    transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.tarjetas_contenedor{
+    position: relative;
+    width: 85%;
+    height: 85%;
+}
+
+input[type=radio]{ 
+     display: none;
+
+}
+
+.contenedor{
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    max-height: 800px;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}  /*  mantener presionado Alt y en el teclado numerico escribir 1,2 y 6 = "~" */
+
+
+
+#item_2:checked ~ .tarjetas_contenedor #selector-1,
+#item_1:checked ~ .tarjetas_contenedor #selector-3,
+#item_3:checked ~ .tarjetas_contenedor #selector-2{
+    transform: translateX(-40%) scale(0.8);
+    opacity: 0.6;
+    z-index: 0;
+} 
+
+#item_3:checked ~ .tarjetas_contenedor #selector-1,
+#item_1:checked ~ .tarjetas_contenedor #selector-2,
+#item_2:checked ~ .tarjetas_contenedor #selector-3{
+    transform: translateX(40%) scale(0.8);
+    opacity: 0.6;
+    z-index: 0;
+} 
+
+#item_1:checked ~ .tarjetas_contenedor #selector-1,
+#item_2:checked ~ .tarjetas_contenedor #selector-2,
+#item_3:checked ~ .tarjetas_contenedor #selector-3{
+    transform: translateX(0%) scale(1);
+    z-index: 1;
+} 
+
+
+#item_1:checked ~ .contenedor label[for="item_1"],
+#item_2:checked ~ .contenedor label[for="item_2"],
+#item_3:checked ~ .contenedor label[for="item_3"] {
+  background: #ffffff;
+}
+
+
+/* CARRUSEL MOVIL */
+
+.cubiertaslidermovil{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 2;
+    box-sizing: border-box; 
+    /* background-color: black;
+    background: white;
+    background: #E7008F */
+}
+
+.galeria{
+    padding: 25px;
+}
+
+.listaimagenes img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    width: 130px;
+    height: 130px;
+    margin-right: 16px;
+}
+
+.listaimagenes{
+    display: flex;
+    overflow-y: auto;
+    margin-top: 10px;
+}
+

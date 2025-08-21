@@ -1,0 +1,25 @@
+.Logomenu{
+    width: 45%;
+    display: flex;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+
+.menuhamburguesa{
+ margin-top: 10px;
+ 
+}
+
+
+
+/* .Logomenu{
+    display: flex;
+    width: 100%;
+}
+
+.menuhamburguesa{
+    display: flex;
+    width: 100%;
+    margin-left: 50px;
+} */
