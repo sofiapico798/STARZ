@@ -1,0 +1,28 @@
+.botones{
+    width: 190px;
+   height: 38px;
+   margin: 0 auto;
+   color: white;
+   font-size: 20px;
+   font-family: "Darker Grotesque", sans-serif;
+   font-style: normal;
+   font-weight: bolder;
+   background-color: #E7008F;
+   border: #E7008F;
+   border-radius: 50px;
+   text-align: center;
+   align-items: center;
+   transition: all .5s;
+    filter: drop-shadow(3px 3px #D5EE1A);
+}
+
+button:hover{
+    background-color: #D5EE1A;
+    color: #E7008F;
+    transform: translateX(3px) translateY(3px);
+    filter: drop-shadow(1px 1px #97a813);
+}
+
+.centradobotones{
+    text-align: center;
+}
