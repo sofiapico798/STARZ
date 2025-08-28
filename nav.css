@@ -1,14 +1,20 @@
 .Logomenu{
     width: 45%;
     max-width: 200px;
+}
+
+#encabezado {
     display: flex;
-    margin-left: 40px;
-    margin-top: 10px;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
 }
 
 
 .menuhamburguesa{
- margin-top: 10px;
+ width: 60px;
+ height: auto;
+ padding-top: 12px;
 }
 
 
