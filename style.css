@@ -155,36 +155,6 @@ nav{
     }
 }
 
-/* FOOTER */
-
-footer{
-    background-color: #226CFF;
-    padding: 30px 0;
-    text-align: center;
-}
-
-.footerimagenes{
-    display: flex; 
-    justify-content: space-around;
-}
-
-#starzblanco{
-    width: 35%;
-    max-width: 300px;
-    display: flex;
-}
-
-.redessociales{
-    display: flex; 
-    justify-content: space-around;
-}
-
-#facebook{
-    width: 20%;
-    aspect-ratio: 1;
-    }
-
-
 
 /* SLIDER MOVIL */ 
 
@@ -312,4 +282,5 @@ input[type=radio]{
     overflow-y: auto;
     margin-top: 10px;
 }
+
 
