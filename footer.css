@@ -1,0 +1,48 @@
+
+
+
+.footer {
+    width: 100%;
+    background-color: #226CFF; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+     align-items: center;
+    
+}
+
+.todo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; 
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 180px; 
+    height: auto;
+}
+
+.redes a {
+    color: white;
+    font-size: 50px;
+    margin: 0 10px;
+    transition: color 0.3s;
+ 
+}
+
+.redes a:hover {
+    color: #e0e0e0;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info, .copy {
+    margin: 5px 0;
+    font-size: 20px;
+}
