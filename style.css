@@ -112,13 +112,8 @@ h2{
    border-radius: 50px;
    text-align: center;
    align-items: center;
-   margin-top: 55px;
    transition: all .5s;
     filter: drop-shadow(3px 3px #D5EE1A);
-}
-
-button{
-    margin-left: 60px;
 }
 
 button:hover{
@@ -126,6 +121,9 @@ button:hover{
     color: #E7008F;
     transform: translateX(3px) translateY(3px);
     filter: drop-shadow(1px 1px #97a813);
+}
+.centradobotones{
+    text-align: center;
 }
 
 
@@ -266,6 +264,7 @@ input[type=radio]{
     overflow-y: auto;
     margin-top: 10px;
 }
+
 
 
 
