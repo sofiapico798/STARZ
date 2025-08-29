@@ -98,7 +98,8 @@ h2{
 
 
 /* BOTONES */
-.botones{
+
+.button{
     width: 190px;
    height: 38px;
    margin: 0 auto;
@@ -265,6 +266,7 @@ input[type=radio]{
     overflow-y: auto;
     margin-top: 10px;
 }
+
 
 
 
