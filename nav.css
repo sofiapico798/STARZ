@@ -1,23 +1,122 @@
-.Logomenu{
-    width: 45%;
-    max-width: 200px;
+
+/* MENU HAMBURGUESA */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow Condensed", sans-serif;
 }
 
-#encabezado {
+.navbar{
+padding: 0;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+
+nav{
+      position: fixed;
+     width: 100%;
+}
+.navmenu{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 10px;
+    list-style: none;
+    gap: 1rem;
 }
 
+/* .Logomenu{
+    width: 45%;
+    max-width: 10rem;
+    display: flex;
+    padding: 0.5rem;
+    margin-left: 40px;
+    margin-top: 1px;
+}
+ */
+.Logomenu{
+    width: 300%;
+    max-width: 10rem;
+    display: flex;
+    padding: 0.5rem;
+    margin-left: -10px;
+}
+
+.navlink{
+    color: #E7008F;
+    text-decoration: none;
+    transition: .3s ease;  
+}
+
+.navlink :hover{
+    color: #D5EE1A;
+}
 
 .menuhamburguesa{
- width: 60px;
- height: auto;
- padding-top: 12px;
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 50px;
+    height: 5px;
+    margin: 12px auto;
+    background-color: #D5EE1A;
+    transition: .3s ease;
+    border-radius: 5px;
+}
+
+a{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+@media (min-width: 390px) {
+    .menuhamburguesa{
+    display: block;
+    cursor: pointer;
+}
+   .menuhamburguesa.active .bar:nth-child(2){
+    opacity: 0;
+   }
+   .menuhamburguesa.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+   }
+   .menuhamburguesa.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+   }
+   .navmenu{
+    position: fixed;
+    /* right: 0px; se ve todo y right: -195px desaparece*/
+    right: -195px;
+    top: 113px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #D5EE1A;
+    width: 50%;
+    height: 735px;
+    text-align: center;
+    transition: .3s;
+    padding: 35px;
+}
+.navmenu.active{
+   right: 0;
+}
 }
 
 
+
+
+
+.mesefdhnuhamburguesa{
+ width: 67px;
+ height: 67px;
+ padding: 2rem;
+margin-top: -5px;
+}
 
 /* .Logomenu{
     display: flex;
@@ -28,4 +127,5 @@
     display: flex;
     width: 100%;
     margin-left: 50px;
+} */
 } */
