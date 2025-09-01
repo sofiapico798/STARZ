@@ -246,7 +246,7 @@ input[type=radio]{
 /* CARRUSEL MOVIL */
 
 .cubiertaslidermovil{
-    margin: 0;
+      margin: 0;
     padding: 0;
     position: relative;
     z-index: 2;
@@ -254,6 +254,7 @@ input[type=radio]{
     /* background-color: black;
     background: white;
     background: #E7008F */
+    z-index: 0;
 }
 
 .galeria{
@@ -274,6 +275,7 @@ input[type=radio]{
     overflow-y: auto;
     margin-top: 10px;
 }
+
 
 
 
