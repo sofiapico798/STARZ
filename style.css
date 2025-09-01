@@ -278,6 +278,237 @@ input[type=radio]{
 
 
 
+/* SPONSORS */
+
+
+
+#botonsponsors{
+    margin-top: 70px;
+}
+
+#aliadosestrategicos{
+    margin-top: 80px;
+}
+
+.Estrellasponsors{
+    width: 40%;
+    margin-top: -70px;
+    margin-left: 185px;
+}
+
+
+
+/* CARRUCEL */
+
+.cubiertaslidermovil_sponsors{
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    height: 220px; 
+    position: relative;
+    z-index: 2;
+    box-sizing: border-box; 
+    /* background-color: black;
+    background: white;
+    background: #E7008F */
+    z-index: 0;
+
+}
+
+.galeria_sponsors{
+   padding: 10px;
+}
+
+.listaimagenes_sponsors{
+   display: flex;
+    overflow-y: auto;
+    margin-top: 10px;
+}
+
+.listaimagenes_sponsors img{
+    width: 60%;
+    display: block;
+    object-fit: cover;
+    margin-right: 8px;
+}
+
+/* SPONSORS */
+
+
+
+
+/* CONTACTO */
+
+
+.titulocontacto{
+    color: white;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 55px;
+    margin-top: 145px;
+    font-style: normal;
+    text-transform: uppercase;
+    z-index: 0;
+}
+
+.contenedortitulocontacto{
+    width: 150px;
+}
+
+#textocontacto{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Estrellacontacto{
+    width: 30%;
+    margin-top: -65px;
+    margin-left: 200px;
+    display: flex;
+}
+
+option{
+    color: black;
+    font-family: "Darker Grotesque", sans-serif;
+    font-size: 20px;
+    font-style: normal;  
+}
+
+select{
+    color: black;
+    font-family: "Darker Grotesque", sans-serif;
+    font-size: 20px;
+    font-style: normal;  
+    border-radius: 100px;
+    margin-top: 50px;
+}
+
+#textonombrecompleto{
+    margin-top: 10px;
+}
+
+input{
+    font-family: "Darker Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+     width: 301px;
+    height: 30px;
+    border-radius: 20px;
+    font-weight: 380;
+    background: rgb(240, 240, 240);
+    border: solid rgb(204, 204, 204);
+    border-width: 0.20vw;
+}
+
+label{
+    margin-left: -110px;
+}
+
+#NombreCompleto{
+    margin-top: 10px;
+}
+
+
+#textoGmail{
+    margin-top: 10px;
+}
+
+#textoCelular{
+    margin-top: 10px;
+}
+
+#Mennsaje{
+    width: 301px;
+    height: 75px;
+    border-radius: 20px;
+}
+
+/* CONTACTO */
+
+
+
+
+/* ENVIADO */
+
+.tituloenviado{
+      color: white;
+    font-family: "Darker Grotesque", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 145px;
+    font-style: normal;
+    text-align: center;
+    text-transform: none;
+    z-index: 0;
+}
+
+.contenedor_enviado{
+    width: 300px;
+}
+
+
+.enviarconsulta{
+ color: white;
+ font-size: 20px;
+ font-weight: 600;
+ margin-left: 60px;
+ text-transform: none;
+ text-decoration: none;
+ font-family: "Darker Grotesque", sans-serif;
+font-style: normal;
+}
+
+
+/* ENVIADO */
+
+.tituloenviado{
+    margin-top: 370px;
+    display: flex;
+}
+
+.Estrellaenviado{
+    width: 35%;
+    margin-top: -200px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.volveralinicio{
+     color: white;
+     display: flex;
+     font-size: 20px;
+     font-weight: 600;
+     left: 0;
+     text-transform: none;
+     text-decoration: none;
+     font-family: "Darker Grotesque", sans-serif;
+     font-style: normal;
+}
+
+
+.consutaenviada{
+     color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+     align-items: center;
+     text-transform: none;
+     text-decoration: none;
+     font-family: "Darker Grotesque", sans-serif;
+    font-style: normal;
+}
+
+#botonconsultaenviada{
+    margin-top: 140px;
+}
+
+/* ENVIADO */
+
+
+
+
 
 
 
