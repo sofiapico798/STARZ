@@ -1,0 +1,5 @@
+function muestra(art){
+    var articulo = document.getElementById("ART"+art);
+    console.log(articulo);
+    articulo.classList.add("activo");
+}

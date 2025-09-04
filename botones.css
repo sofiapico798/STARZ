@@ -26,3 +26,14 @@ button:hover{
 .centradobotones{
     text-align: center;
 }
+
+article {
+    p{
+        display: none;
+    }
+}
+article.activo{
+    p{
+        display: block;
+    }
+}

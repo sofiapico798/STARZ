@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privados</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="botones.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family
+=Bungee&family=Changa+One:ital@0;1&family=Darker+Grotesque:wght@300..
+900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=
+Lilita+One&family=Luckiest+Guy&family=Nanum+Myeongjo&family=Noto+Serif:ital,
+wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Roboto:ital
+,wght@0,100..900;1,100..900&family=Russo+One&family=Seymour+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div id="nav"></div>  
+<h1>SECTORES PRIVADOS</h1>
+<ARTicle id="ART1">
+    <h2>CENAS EXCLUSIVAS<IMG onclick="muestra(1)"></IMG></h2>
+    <P>text1</P> <!-- css disp none -->
+    <DIV></DIV> <!-- CARRU -->
+</ARTicle>
+<ARTicle id="ART2">
+    <h2>CENAS EXCLUSIVAS<IMG onclick="muestra(2)"></IMG></h2>
+    <P>text2</P> <!-- css disp none -->
+    <DIV></DIV> <!-- CARRU -->
+</ARTicle>
+
+<div id="footer"></div>
+</body>
+
+<script src="nav.js"></script>
+<script src="footer.js"></script>
+</html>
