@@ -93,11 +93,12 @@ a{
     /* right: 0px; se ve todo y right: -195px desaparece*/
     right: -195px;
     gap: 0;
-    bottom: -113px;
+    top: 113px;
     flex-direction: column;
     background-color: #D5EE1A;
     width: 50%;
     height: 735px;
+    bottom: 0;
     text-align: center;
     transition: .3s;
     padding: 35px;
@@ -129,6 +130,7 @@ margin-top: -5px;
     margin-left: 50px;
 } */
 } */
+
 
 
 
