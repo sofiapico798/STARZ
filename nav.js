@@ -3,13 +3,13 @@ fetch('nav.html') .then(response => response.text()) .then(data => { document.ge
 window.onload = (event) => {
   console.log("page is fully loaded");
 
-const menuhamburguesa = document.querySelector(".menuhamburguesa")
+  const menuhamburguesa = document.querySelector(".menuhamburguesa")
 
-const navmenu = document.querySelector(".navmenu")
+  const navmenu = document.querySelector(".navmenu")
 
-menuhamburguesa.addEventListener("click", () => {
-  menuhamburguesa.classList.toggle("active")
-  navmenu.classList.toggle("active")
-}); 
+  menuhamburguesa.addEventListener("click", () => {
+    menuhamburguesa.classList.toggle("active")
+    navmenu.classList.toggle("active")
+  }); 
 }
 
