@@ -81,13 +81,13 @@ a{
     cursor: pointer;
 }
    .menuhamburguesa.active .bar:nth-child(2){
-    opacity: 0;
+    opacity: 100%;
    }
    .menuhamburguesa.active .bar:nth-child(1){
-    transform: translateY(8px) rotate(45deg);
+    transform: translateY(0px) rotate(0deg);
    }
    .menuhamburguesa.active .bar:nth-child(3){
-    transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(0px) rotate(0deg);
    }
    .navmenu{
     position: fixed;
@@ -130,6 +130,7 @@ margin-top: -5px;
     margin-left: 50px;
 } */
 } */
+
 
 
 
