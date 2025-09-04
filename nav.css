@@ -92,7 +92,6 @@ a{
     position: fixed;
     /* right: 0px; se ve todo y right: -195px desaparece*/
     right: -195px;
-    top: 113px;
     gap: 0;
     flex-direction: column;
     background-color: #D5EE1A;
@@ -129,6 +128,7 @@ margin-top: -5px;
     margin-left: 50px;
 } */
 } */
+
 
 
 
