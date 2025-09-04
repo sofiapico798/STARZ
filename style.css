@@ -8,6 +8,8 @@ margin: 0%;
 /*Alt + Shift + A (para hacer UN comentario) */
 
 main{
+    display: flex;
+    flex-direction: column;
     margin: 11.5%; /* seria como la regla o limite del contenido (para que no este tan en el borde */
 }
 
@@ -144,6 +146,7 @@ h2{
 
 button{
     text-align: center;
+    margin: 0 auto;
 }
 
 button:hover{
@@ -559,7 +562,6 @@ label{
  color: white;
  font-size: 20px;
  font-weight: 600;
- margin-left: 35px;
  text-transform: none;
  text-decoration: none;
  font-family: "Darker Grotesque", sans-serif;
