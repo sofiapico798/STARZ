@@ -20,6 +20,7 @@ z-index: 1;
 nav{
       position: fixed;
      width: 100%;
+     top: 0;
 }
 .navmenu{
     display: flex;
@@ -130,6 +131,7 @@ margin-top: -5px;
     margin-left: 50px;
 } */
 } */
+
 
 
 
