@@ -1,3 +1,5 @@
+/* INICIO */
+
 body{
 background-color: black;
 margin: 0%;
@@ -9,34 +11,61 @@ main{
     margin: 11.5%; /* seria como la regla o limite del contenido (para que no este tan en el borde */
 }
 
-h1{
-    color: white;
-    font-family: "Barlow Condensed", sans-serif;
-    font-weight: 600;
-    font-size: 42px;
-    line-height: 55px;
-    font-style: normal;
-}
-
 .titulo{
     color: white;
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 600;
     font-size: 42px;
     line-height: 55px;
-    margin-top: 139px;
+    margin-top: 145px;
     font-style: normal;
+    text-transform: uppercase;
+    z-index: 0;
 }
 
 .Estrelainicio{
     /*width: 60%;*/
     width: 140px;
     height: 139px;
-    margin-top: -70px;
+    margin-top: -50px;
     margin-left: 150px;
 }
 
+.inicioplaneatuevento{
+   width: 190px;
+   height: 38px;
+   color: white;
+   font-size: 20px;
+   font-family: "Darker Grotesque", sans-serif;
+   font-style: normal;
+   font-weight: bolder;
+   background-color: #E7008F;
+   border: #E7008F;
+   border-radius: 50px;
+   text-align: center;
+   align-items: center;
+   margin-top: 55px;
+   transition: all .5s;
+    filter: drop-shadow(3px 3px #D5EE1A);
+}
 
+.inicioenviarconsulta{
+    width: 190px;
+   height: 38px;
+   color: white;
+   font-size: 20px;
+   font-family: "Darker Grotesque", sans-serif;
+   font-style: normal;
+   font-weight: bolder;
+   background-color: #E7008F;
+   border: #E7008F;
+   border-radius: 50px;
+   text-align: center;
+   align-items: center;
+   margin-top: 55px;
+   transition: all .5s;
+    filter: drop-shadow(3px 3px #D5EE1A);
+}
 
 h2{
     font-family: "Barlow Condensed", sans-serif;
@@ -93,6 +122,12 @@ h2{
     position: relative;
 }
 
+#desueñoarealidad{
+    margin-top: 80px;
+}
+
+
+
 .subtitulo{
      font-family: "Barlow Condensed", sans-serif;
     font-size: 38px;
@@ -103,27 +138,12 @@ h2{
 }
 
 #nuestrasestrellas{
-    margin-top: -380px;
+    margin-top: -330px;
 }
 
 
-/* BOTONES */
-
-.inicioplaneatuevento{
-   width: 190px;
-   height: 38px;
-   color: white;
-   font-size: 20px;
-   font-family: "Darker Grotesque", sans-serif;
-   font-style: normal;
-   font-weight: bolder;
-   background-color: #E7008F;
-   border: #E7008F;
-   border-radius: 50px;
-   text-align: center;
-   align-items: center;
-   transition: all .5s;
-    filter: drop-shadow(3px 3px #D5EE1A);
+button{
+    margin-left: 60px;
 }
 
 button:hover{
@@ -131,9 +151,6 @@ button:hover{
     color: #E7008F;
     transform: translateX(3px) translateY(3px);
     filter: drop-shadow(1px 1px #97a813);
-}
-.centradobotones{
-    text-align: center;
 }
 
 
@@ -146,6 +163,36 @@ nav{
         padding: 25px;
     }
 }
+
+/* FOOTER */
+
+footer{
+    background-color: #226CFF;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footerimagenes{
+    display: flex; 
+    justify-content: space-around;
+}
+
+#starzblanco{
+    width: 35%;
+    max-width: 300px;
+    display: flex;
+}
+
+.redessociales{
+    display: flex; 
+    justify-content: space-around;
+}
+
+#facebook{
+    width: 20%;
+    aspect-ratio: 1;
+    }
+
 
 
 /* SLIDER MOVIL */ 
@@ -246,7 +293,7 @@ input[type=radio]{
 /* CARRUSEL MOVIL */
 
 .cubiertaslidermovil{
-      margin: 0;
+    margin: 0;
     padding: 0;
     position: relative;
     z-index: 2;
@@ -275,6 +322,59 @@ input[type=radio]{
     overflow-y: auto;
     margin-top: 10px;
 }
+
+/* INICIO */
+
+
+
+
+
+
+
+/* PROYECTOS */
+
+.tituloproyectos{
+    color: white;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 55px;
+    margin-top: 145px;
+    font-style: normal;
+    text-transform: uppercase;
+    z-index: 0;
+}
+
+.contenedortituloproyectos{
+    width: 260px;
+}
+
+.Estrellaproyectos{
+    width: 20%;
+    margin-top: -185px;
+    margin-left: 245px;
+    display: flex;
+}
+
+#RooftopExperience{
+    margin-top: 167px;
+}
+
+#Municipalidad-bs{
+    margin-top: -330px;
+}
+
+.tercertitulo{
+    color: white;
+    font-family: "Darker Grotesque", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+/* PROYECTOS */
+
 
 
 
@@ -424,7 +524,13 @@ label{
     border-radius: 20px;
 }
 
+
+
+
+
 /* CONTACTO */
+
+
 
 
 
@@ -506,11 +612,18 @@ font-style: normal;
 
 /* ENVIADO */
 
-
-
-
-
-
-
-
-
+/*   width: 190px;
+   height: 38px;
+   color: white;
+   font-size: 20px;
+   font-family: "Darker Grotesque", sans-serif;
+   font-style: normal;
+   font-weight: bolder;
+   background-color: #E7008F;
+   border: #E7008F;
+   border-radius: 50px;
+   text-align: center;
+   align-items: center;
+   margin-top: 55px;
+   transition: all .5s;
+    filter: drop-shadow(3px 3px #D5EE1A); */
