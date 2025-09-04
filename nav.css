@@ -73,6 +73,7 @@ nav{
 a{
     font-size: 30px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 @media (min-width: 390px) {
@@ -129,7 +130,6 @@ margin-top: -5px;
     display: flex;
     width: 100%;
     margin-left: 50px;
-} */
 } */
 
 
