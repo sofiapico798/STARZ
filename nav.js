@@ -11,4 +11,5 @@ menuhamburguesa.addEventListener("click", () => {
   menuhamburguesa.classList.toggle("active")
   navmenu.classList.toggle("active")
 }); 
+}
 
