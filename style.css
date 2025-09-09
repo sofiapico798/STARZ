@@ -346,11 +346,10 @@ input[type=radio]{
     font-style: normal;
     text-transform: uppercase;
     z-index: 0;
-    width: 45%;
 }
 
 #proyectostitulocontenedor{
-    width: 20%;
+    width: 60%;
 }
 
 
@@ -636,6 +635,7 @@ font-style: normal;
    margin-top: 55px;
    transition: all .5s;
     filter: drop-shadow(3px 3px #D5EE1A); */
+
 
 
 
