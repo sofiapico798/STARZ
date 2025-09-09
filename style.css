@@ -348,7 +348,7 @@ input[type=radio]{
     z-index: 0;
 }
 
-.contenedortituloproyectos{
+.contenedorproyectos{
     width: 260px;
 }
 
@@ -357,6 +357,10 @@ input[type=radio]{
     margin-top: -185px;
     margin-left: 245px;
     display: flex;
+}
+
+#contenedorproyectos{
+    width: 260px;
 }
 
 #RooftopExperience{
@@ -629,6 +633,7 @@ font-style: normal;
    margin-top: 55px;
    transition: all .5s;
     filter: drop-shadow(3px 3px #D5EE1A); */
+
 
 
 
