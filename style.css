@@ -348,10 +348,6 @@ input[type=radio]{
     z-index: 0;
 }
 
-.contenedorproyectos{
-    width: 260px;
-}
-
 .Estrellaproyectos{
     width: 20%;
     margin-top: -185px;
@@ -360,7 +356,7 @@ input[type=radio]{
 }
 
 #contenedorproyectos{
-    width: 260px;
+    width: 150px;
 }
 
 #RooftopExperience{
@@ -633,6 +629,7 @@ font-style: normal;
    margin-top: 55px;
    transition: all .5s;
     filter: drop-shadow(3px 3px #D5EE1A); */
+
 
 
 
