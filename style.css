@@ -460,7 +460,7 @@ input[type=radio]{
 }
 
 #textocontacto{
-    
+    margin-top: 20px;
     text-align: center;
 }
 
@@ -629,6 +629,7 @@ font-style: normal;
    margin-top: 55px;
    transition: all .5s;
     filter: drop-shadow(3px 3px #D5EE1A); */
+
 
 
 
