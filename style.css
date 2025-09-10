@@ -481,6 +481,10 @@ option{
     font-style: normal;  
 }
 
+#genero{
+   width: 150px;
+ }   
+
 select{
     color: black;
     font-family: "Darker Grotesque", sans-serif;
@@ -632,6 +636,7 @@ font-style: normal;
    margin-top: 55px;
    transition: all .5s;
     filter: drop-shadow(3px 3px #D5EE1A); */
+
 
 
 
