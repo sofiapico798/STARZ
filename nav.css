@@ -101,7 +101,6 @@ a{
     width: 50%;
     height: 735px;
     bottom: 0;
-    text-align: center;
     transition: .3s;
     padding: 35px;
 }
@@ -109,6 +108,7 @@ a{
    right: 0;
 }
 }
+
 
 
 
