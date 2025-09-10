@@ -23,6 +23,18 @@
     filter: drop-shadow(1px 1px #97a813);
 }
 
+button{
+    text-align: center;
+    margin: 0 auto;
+}
+
+button:hover{
+    background-color: #D5EE1A;
+    color: #E7008F;
+    transform: translateX(3px) translateY(3px);
+    filter: drop-shadow(1px 1px #97a813);
+}
+
 .centradobotones{
     text-align: center;
 }

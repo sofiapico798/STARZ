@@ -25,6 +25,17 @@ main{
     z-index: 0;
 }
 
+.titulodesectores {
+    color: white;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 55px;
+    font-style: normal;
+    text-transform: uppercase;
+    z-index: 0;
+}
+
 .Estrelainicio{
     /*width: 60%;*/
     width: 140px;
@@ -144,17 +155,6 @@ h2{
 }
 
 
-button{
-    text-align: center;
-    margin: 0 auto;
-}
-
-button:hover{
-    background-color: #D5EE1A;
-    color: #E7008F;
-    transform: translateX(3px) translateY(3px);
-    filter: drop-shadow(1px 1px #97a813);
-}
 
 
 nav{
