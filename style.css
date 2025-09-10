@@ -19,7 +19,7 @@ main{
     font-weight: 600;
     font-size: 42px;
     line-height: 55px;
-    margin-top: 145px;
+    /*margin-top: 145px;*/
     font-style: normal;
     text-transform: uppercase;
     z-index: 0;
@@ -642,6 +642,7 @@ font-style: normal;
    margin-top: 55px;
    transition: all .5s;
     filter: drop-shadow(3px 3px #D5EE1A); */
+
 
 
 
