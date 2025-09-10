@@ -62,22 +62,8 @@ main{
     filter: drop-shadow(3px 3px #D5EE1A);
 }
 
-.inicioenviarconsulta{
-    width: 190px;
-   height: 38px;
-   color: white;
-   font-size: 20px;
-   font-family: "Darker Grotesque", sans-serif;
-   font-style: normal;
-   font-weight: bolder;
-   background-color: #E7008F;
-   border: #E7008F;
-   border-radius: 50px;
-   text-align: center;
-   align-items: center;
+#inicioenviarconsulta{
    margin-top: 55px;
-   transition: all .5s;
-    filter: drop-shadow(3px 3px #D5EE1A);
 }
 
 h2{
@@ -652,6 +638,7 @@ font-style: normal;
    margin-top: 55px;
    transition: all .5s;
     filter: drop-shadow(3px 3px #D5EE1A); */
+
 
 
 
