@@ -2,6 +2,7 @@ article {
     p{
         display: none;
     }
+    margin-top: 6vw;
 }
 article.activo{
     p{
@@ -12,6 +13,7 @@ article.activo{
 .flechita {
    width: 5vw;
    height: auto;
+   margin-left: 10px
 }
 
 @-webkit-keyframes rotate-180-cw {

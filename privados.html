@@ -24,7 +24,7 @@ wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Roboto:ita
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="nav.css">
   <link rel="stylesheet" href="footer.css">
-  <link rel="stylesheet" href="cssservicios.css">
+  <link rel="stylesheet" href="serviciosyproyectos.css">
 </head>
 
 <body>
@@ -32,11 +32,15 @@ wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Roboto:ita
   <main>
     <h1 class="titulodesectores">SECTORES PRIVADOS</h1>
     <ARTicle id="ART1">
-      <h2>CENAS EXCLUSIVAS<IMG class="flechita" id="FLECHITA1" onclick="muestra(1)" src="img/flechita.svg"></h2>
+      <div class="subtituloflecha">
+  <h2>CENAS EXCLUSIVAS</h2>
+  <img class="flechita" id="FLECHITA1" onclick="muestra(1)" src="img/flechita.svg">
+</div>
+     
       <P class="texto">Organizamos experiencias gastronómicas íntimas en lugares únicos, con ambientación personalizada
         y servicio premium.</P> <!-- css disp none -->
       <DIV>
-        <div id="carouselExample" class="carousel slide">
+        <div id="carouselExample1" class="carousel slide">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="Privados/Img CENAS (2).png" class="d-block w-100" alt="...">
@@ -48,11 +52,11 @@ wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Roboto:ita
               <img src="Privados/Img CENAS (1).png" class="d-block w-100" alt="...">
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
@@ -62,10 +66,36 @@ wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Roboto:ita
       </DIV> <!-- CARRU -->
     </ARTicle>
     <ARTicle id="ART2">
-      <h2>FIESTAS VIP<IMG class="flechita" id="FLECHITA2" onclick="muestra(2)" src="img/flechita.svg"></h2>
+      <div class="subtituloflecha">
+      <h2>FIESTAS VIP</h2>
+      <IMG class="flechita" id="FLECHITA2" onclick="muestra(2)" src="img/flechita.svg">
+      </div>
+      
       <P class="texto">Creamos celebraciones privadas con propuestas a medida: música en vivo, DJs, barras temáticas y
         máxima discreción.</P> <!-- css disp none -->
-      <DIV></DIV> <!-- CARRU -->
+      <DIV>
+        <div id="carouselExample2" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Privados/Img CENAS (2).png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="Privados/Img CENAS (3).png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="Privados/Img CENAS (1).png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </DIV> <!-- CARRU -->
     </ARTicle>
   </main>
 
