@@ -66,6 +66,7 @@ main{
    margin-top: 53px;
 }
 
+
 h2{
     font-family: "Barlow Condensed", sans-serif;
     font-size: 38px;
@@ -557,14 +558,8 @@ label{
 }
 
 
-.enviarconsulta{
- color: white;
- font-size: 20px;
- font-weight: 600;
- text-transform: none;
- text-decoration: none;
- font-family: "Darker Grotesque", sans-serif;
-font-style: normal;
+#enviarconsulta{
+ margin-top: 100px;
 }
 
 
@@ -638,6 +633,7 @@ font-style: normal;
    margin-top: 55px;
    transition: all .5s;
     filter: drop-shadow(3px 3px #D5EE1A); */
+
 
 
 
