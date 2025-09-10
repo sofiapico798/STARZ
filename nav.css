@@ -48,7 +48,7 @@ nav{
 .navlink{
     color: #E7008F;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
     transition: .3s ease;  
 }
 
@@ -113,6 +113,7 @@ li{
    right: 0;
 }
 }
+
 
 
 
