@@ -467,6 +467,10 @@ input[type=radio]{
     text-align: center;
 }
 
+.contenedortextocontacto{
+     text-align: center;
+}
+
 .Estrellacontacto{
     width: 30%;
     margin-top: -65px;
@@ -636,6 +640,7 @@ font-style: normal;
    margin-top: 55px;
    transition: all .5s;
     filter: drop-shadow(3px 3px #D5EE1A); */
+
 
 
 
