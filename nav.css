@@ -76,6 +76,10 @@ a{
     text-align: center;
 }
 
+li{
+    right: 0;
+    }
+
 @media (min-width: 390px) {
     .menuhamburguesa{
     display: block;
@@ -108,6 +112,7 @@ a{
    right: 0;
 }
 }
+
 
 
 
