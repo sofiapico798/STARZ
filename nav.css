@@ -108,15 +108,27 @@ li{
     bottom: 0;
     transition: .3s;
     padding: 35px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
 }
 .navmenu.active{
    right: 0;
 }
 }
+.serviciosmuestra {
+    display: none;
+    color: #226CFF;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .3s ease;  
+    text-decoration: none;
+}
 
+.serviciosmuestra.activo{
+    display: block;
 
-
-
+}
 
 
 
