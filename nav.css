@@ -13,7 +13,9 @@ padding: 0;
 display: flex;
 justify-content: space-around;
 align-items: center;
-z-index: 1;
+z-index: 20;
+position: fixed;
+top: 0;
 }
 
 
@@ -26,6 +28,7 @@ nav{
     display: flex;
     list-style: none;
     gap: 1rem;
+    z-index: 22;
 }
 
 /* .Logomenu{

@@ -10,7 +10,7 @@ margin: 0%;
 main{
     display: flex;
     flex-direction: column;
-    margin: 11.5%; /* seria como la regla o limite del contenido (para que no este tan en el borde */
+    margin: 20vh 11.5%; /* seria como la regla o limite del contenido (para que no este tan en el borde */
 }
 
 .titulo{
@@ -19,7 +19,6 @@ main{
     font-weight: 600;
     font-size: 42px;
     line-height: 55px;
-    margin-top: 145px;
     font-style: normal;
     text-transform: uppercase;
     z-index: 0;
@@ -329,7 +328,6 @@ input[type=radio]{
     font-weight: 600;
     font-size: 42px;
     line-height: 55px;
-    margin-top: 145px;
     font-style: normal;
     text-transform: uppercase;
     z-index: 0;
@@ -440,7 +438,6 @@ input[type=radio]{
     font-weight: 600;
     font-size: 42px;
     line-height: 55px;
-    margin-top: 145px;
     font-style: normal;
     text-transform: uppercase;
     z-index: 0;
