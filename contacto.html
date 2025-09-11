@@ -40,12 +40,13 @@ wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,30
             ¡No dudes con contactarnos!
         </p>
 </div>
+
          
 <div id="Contenedorform">
 
-<form action="contacto.html" method="get" id="form">
+<form action="enviado.html" method="get" id="form">
 
-        <select name="genero" id="genero" id="selecciones">
+        <select name="genero" id="genero" id="selecciones" required>
 
                     <option value="" disabled selected>Selecciona que eres</option>
 
@@ -56,31 +57,25 @@ wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,30
                 </select>
 
 
-
-
                 <p class="texto" id="NombreCompleto">Nombre Completo:</p>
-                <input type="text" name="Nombre completo" id="nombre" id="nombrecomplet" minlength="8" placeholder="Ingrese su nombre y apellido">
+                <input type="text" name="Nombre completo" id="nombre" id="nombrecomplet" minlength="8" placeholder="Ingrese su nombre y apellido" required>
 
 
-                <p class="texto" id="textoGmail">Email:</p>
+                <p class="texto" id="textoGmail">Gmail:</p>
                 <input type="email" name="Gmail" id="Gmail" id="correo" placeholder="Ingrese su correo electronico" required>
 
                 
                 <p class="texto" id="textoCelular">Celular:</p>
-                <input type="text" name="Número de teléfono" id="telefono" id="celular" minlength="8" placeholder="Ingrese número Teléfono">
+                <input type="text" name="Número de teléfono" id="telefono" id="celular" minlength="8" placeholder="Ingrese número Teléfono" required>
 
                 <p class="texto" id="textoCelular">Mensaje:</p>
-                <input type="text" name="mensaje" id="Mennsaje" id="consulta" minlength="8" placeholder="Escribe aqui tu consulta">
+                <input type="text" name="mensaje" id="Mennsaje" id="consulta" minlength="8" placeholder="Escribe aqui tu consulta"required>
 
 
      <div id="div_error" class="form-text"></div>   
-     
+     <button class="botonesgenerales inicioplaneatuevento centradobotones" id="enviarconsulta" onclick="validador()" type="submit">Enviar</button>
 </form>
-
-      <a  href="enviado.html">
-                <button class="botonesgenerales" class="inicioplaneatuevento" class="centradobotones" id="enviarconsulta" onclick="validador()" type="button">Enviar</button></a>
-
-         
+     
 </div>
 
 
@@ -98,6 +93,7 @@ wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,30
 <script src="footer.js"></script>
 <script src="componentes.js"></script>
 </html>
+
 
 
 
