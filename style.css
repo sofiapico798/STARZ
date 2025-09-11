@@ -423,7 +423,7 @@ input[type=radio]{
     width: 60%;
     display: block;
     object-fit: cover;
-    margin-right: 8px;
+    margin-right: 15px;
 }
 
 /* SPONSORS */
@@ -635,6 +635,7 @@ margin-left: 50px;
    margin-top: 55px;
    transition: all .5s;
     filter: drop-shadow(3px 3px #D5EE1A); */
+
 
 
 
